@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,7 +130,7 @@
 
                 <!-- Top Stories -->
                 <div class="why-csharp-right rightside">
-                    <div class="top-stories-header">
+                    <div class="top-stories-header inner-header">
                         <h4>Top Stories</h4>
                     </div>
                     <div class="search-bar">
@@ -193,7 +194,7 @@
 
                 <!-- Forums -->
                 <div class="forums-right rightside">
-                    <div class="forums-header">
+                    <div class="forums-header inner-header">
                         <h4>Forums</h4>
                         <button class="ask-question-button">Ask Question</button>
                     </div>
@@ -244,7 +245,8 @@
 
                 <!-- Certification Paths -->
                 <div class="certifications-right rightside">
-                    <div class="certifications-header">
+                    <img src="images/CSharpcorner-Certification-Design.jpg" class="certification-img" alt="">
+                    <!-- <div class="certifications-header inner-header">
                         <h4>Certification Paths</h4>
                     </div>
                     <div class="certifications-list">
@@ -269,7 +271,7 @@
                                 <p class="certification-description">Deploy and manage applications in Azure</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -286,21 +288,27 @@
                         </span>
                         Gamified Learning
                     </h3>
-                    <p class="gamified-learning-description">
+                    <img src="images/multi-coin-img.svg" class="multi-coin-img" alt="">
+                    <div class="gamified-learning-subtitle">
+                        Learn Earn Grow
+                        <span>Earn Tokens, Badges, and Achievements</span>
+                    </div>
+                    <p class="gamified-learning-description">Level up your skills and showcase your achievements in our gamified learning environment. Earn tokens, badges, and recognition as you progress through courses and contribute to the community.</p>
+                    <!-- <p class="gamified-learning-description">
                         Make learning fun and engaging with our gamified approach. Earn tokens, badges, and achievements as you progress through courses and contribute to the community.
-                    </p>
-                    <a href="#" class="cta-button gradient-button">View Achievements →</a>
+                    </p> -->
+                    <a href="#" class="cta-button gradient-button">Browse Rewards →</a>
                 </div>
 
                 <!-- Your Progress -->
                 <div class="gamified-learning-right rightside">
-                    <div class="progress-header">
-                        <h4>Showcase Badges on Your Profile</h4>
+                    <div class="progress-header inner-header">
+                        <h4>Achievements and Earnings</h4>
                     </div>
                     <div class="progress-grid">
                         <!-- Recent Badges -->
                         <div class="recent-badges">
-                            <h5>Membership Badges</h5>
+                            <h5>Membership Levels</h5>
                             <div class="badges">
                                 <div class="badge">
                                    <i class="profile-badges-icons profile-Starter-icon "></i>
@@ -327,48 +335,54 @@
 
                         <!-- Current Level -->
                         <div class="current-level">
-                            <h5>Current Level</h5>
-                            <div class="level">
-                                <span class="level-number">12</span>
-                                <div class="level-info">
-                                    <span class="level-title">Code Ninja</span>
-                                    <span class="level-progress">Next level: 550 tokens away</span>
-                                    <div class="progress-bar">
-                                        <div class="progress" style="width: 70%;"></div>
-                                    </div>
-                                </div>
+                            <h5>Community and Recognition</h5>
+                            <div class="member-card-md-icons"> 
+                                <div class="mbr-rank-md" title="Rank"><i class="rank-widget-md-icon md-icon-rank"></i><span>Rank</span></div> 
+                                <div class="mbr-read-md" title="Read"><i class="rank-widget-md-icon md-icon-read"></i><span>Read</span></div>
+                                <div class="mbr-rept-md" title="Reputation"><i class="rank-widget-md-icon md-icon-rept"></i><span>Reputation</span></div>
+                                <div class="mbr-mvps-md" title="Membership"><i class="rank-widget-md-icon md-icon-mvps"></i><span>MVPs</span></div> 
+                                <div class="mbr-top-author-md" title="Top Author"><i class="rank-widget-md-icon md-icon-top-author"></i><span>Top Author</span></div> 
                             </div>
                         </div>
                     </div>
 
-                    <!-- Achievement Progress -->
+                    <!-- Achievement -->
                     <div class="achievement-progress">
-                        <h5>Achievement Progress</h5>
+                        <h5>How to Earn Sharp Rewards</h5>
                         <div class="progress-item">
                             <div class="progress-label">
-                                <span>✔️ Complete C# Fundamentals</span>
-                                <span class="progress-percentage">80%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 80%; background: linear-gradient(90deg, #00d2ff, #8a2be2);"></div>
+                                <span>Writing Articles and Blogs</span>
+                                <span class="progress-description">Share your technical knowledge, insights, or experiences through well-crafted articles or blog posts.</span>
                             </div>
                         </div>
                         <div class="progress-item">
                             <div class="progress-label">
-                                <span>✔️ Answer 50 Community Questions</span>
-                                <span class="progress-percentage">60%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 60%; background: linear-gradient(90deg, #00ffcc, #00d2ff);"></div>
+                                <span>Posting Videos</span>
+                                <span class="progress-description">Share your technical knowledge and how-tos via videos.</span>
                             </div>
                         </div>
                         <div class="progress-item">
                             <div class="progress-label">
-                                <span>✔️ Earn 5 Certifications</span>
-                                <span class="progress-percentage">40%</span>
+                                <span>Contributing Code Projects</span>
+                                <span class="progress-description">Develop and share useful code projects that demonstrate practical solutions to common problems.</span>
                             </div>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 40%; background: linear-gradient(90deg, #ff7eb3, #ff758c);"></div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Publishing eBooks</span>
+                                <span class="progress-description">Create comprehensive guides or tutorials on specific technologies or development approaches.</span>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Forum Participation</span>
+                                <span class="progress-description">Answer questions, solve problems, and engage in meaningful discussions in the community forums.</span>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Becoming a Mentor</span>
+                                <span class="progress-description">Become a mentor and share your knowledge and expertise and get rewarded for your time.</span>
                             </div>
                         </div>
                     </div>
@@ -396,38 +410,33 @@
 
                 <!-- Upcoming Events -->
                 <div class="events-right rightside">
-                    <div class="events-header">
-                        <h4>Upcoming Events</h4>
-                        <button class="calendar-button">📅 Calendar</button>
+                    <div class="events-header inner-header">
+                        <h4>Live Show Events</h4>
                     </div>
                     <div class="events-list">
                         <div class="event">
-                            <div class="event-highlight" style="background: linear-gradient(90deg, #9D00FF, #00FFFF);"></div>
+                            <div class="event-highlight">
+                                <a href="https://www.c-sharpcorner.com/live/the-copilot-show"><img src="https://i.ytimg.com/vi/Y097jjvTMeE/mqdefault.jpg" class="show-img" alt=""></a>
+                            </div>
                             <div class="event-content">
-                                <h5 class="event-title">Advanced C# Performance Optimization</h5>
-                                <p class="event-meta">Presented by Dr. James Wilson</p>
-                                <p class="event-date">March 25, 2025 · 2:00 PM EST · 👥 342 attending</p>
+                                <h5 class="event-title">The Copilot Show</h5>
+                                <p class="event-meta">Presented by ·  Mahesh Chand</p>
+                                <p class="event-date">Saturdays · 9:30 PM EST</p>
                                 <a href="#" class="cta-button-sm">Register</a>
                             </div>
                         </div>
                         <div class="event">
-                            <div class="event-highlight" style="background: linear-gradient(90deg, #00FFFF, #00FF9F);"></div>
+                            <div class="event-highlight">
+                                <a href="https://www.c-sharpcorner.com/live/the-cloud-show-with-magnus-m%C3%A5rtensson"><img src="https://i.ytimg.com/vi/9iy8osx98X4/mqdefault.jpg" class="show-img" alt=""></a>
+                            </div>
                             <div class="event-content">
-                                <h5 class="event-title">Building Scalable Microservices with .NET</h5>
-                                <p class="event-meta">Presented by Maria Rodriguez</p>
-                                <p class="event-date">April 2, 2025 · 11:00 AM EST · 👥 215 attending</p>
+                                <h5 class="event-title">The Cloud Show with Magnus Mårtensson</h5>
+                                <p class="event-meta">Presented by ·  Magnus Mårtensson</p>
+                                <p class="event-date">Wednesdays · 10:30 PM EST</p>
                                 <a href="#" class="cta-button-sm">Register</a>
                             </div>
                         </div>
-                        <div class="event">
-                            <div class="event-highlight" style="background: linear-gradient(90deg, #FF6B00, #9D00FF);"></div>
-                            <div class="event-content">
-                                <h5 class="event-title">AI and Machine Learning in C# Applications</h5>
-                                <p class="event-meta">Presented by Dr. Alex Chen</p>
-                                <p class="event-date">April 10, 2025 · 3:00 PM EST · 👥 189 attending</p>
-                                <a href="#" class="cta-button-sm">Register</a>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="cta-container">
                         <a href="#" class="text-button">View All Events →</a>
@@ -616,7 +625,7 @@
 
     <section class="ecosystem-section">
         <div class="container">
-            <h2 class="section-title">Join the CSharp.com Ecosystem</h2>
+            <h2 class="section-title">Join the C# Corner Community</h2>
             <div class="ecosystem-grid">
                 <!-- Students -->
                 <div class="ecosystem-item">
@@ -644,7 +653,7 @@
                 </div>
             </div>
             <div class="cta-container">
-                <a href="#" class="cta-button">Join CSharp.com Today →</a>
+                <a href="#" class="cta-button">Join C# Corner Today →</a>
             </div>
         </div>
     </section>
@@ -652,7 +661,7 @@
     <footer class="footer-section">
         <div class="container">
             <div class="footer-content">
-                <p>© 2025 CSharp.com. All rights reserved.</p>
+                <p>© 2025 C# Corner All rights reserved.</p>
                 <div class="footer-links">
                     <a href="#">Privacy</a>
                     <a href="#">Terms</a>
